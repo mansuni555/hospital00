@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+       <!-- ------------font awesome--------------------- -->
+ <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ************************ -->
+     <!-- Skitter Styles -->
+  <link href="js/skitter.css" rel="stylesheet" />
+  
+  <!-- Skitter JS -->
+  <script  src="js/jquery-3.3.1.min.js"></script>
+  <script  src="js/jquery.easing.1.3.js"></script>
+  <script  src="js/jquery.skitter.min.js"></script>
+  
+  <!-- Init Skitter -->
+  <script >
+    $(document).ready(function() {
+      
+	  $('.skitter-large').skitter({
+         numbers: true,
+		navigation: true,
+        dots:true,
+           preview:true
+      });
+	  
+	  
+	  
+    });
+  </script>
+  
+
+    <!----------------- style----------------------------->
+<style>
+        
+        body{
+            height:900px;
+
+            margin: 0;
+            padding: 0
+        }
+        .head{
+           	height:11.2%;
+            background-color:#fff; 
+        }
+        .image img{
+             color: #fffffd;
+				/*border-radius: 50%;*/
+              /*  margin-left: 1%*/
+        }
+        .imail{
+            color:#04608a;
+               
+                margin-top: 2.5%
+        }
+    .navbar-light .navbar-nav .nav-link {
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+        font-weight: 500;}
+    .bg-light {
+    background-color: #005982!important;
+        
+}
+     /***************/
+    .dropdown-item:hover{background-color:#005982;color: #fff }
+        /****************************************/
+    
+        /****************************************/
+        .as{
+            background-color:#3c6281;
+            text-align: center;
+            color: #fff;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: block;
+            margin-left: 12%;
+            padding-top: 22px;
+        }
+        .as:hover i{
+            animation:ddd .5s infinite linear;
+            border-color: #fff
+        }
+        @keyframes ddd{
+            0%{
+                transform: scale(1);
+            }
+           50%{
+                transform: scale(.8);
+          100%{
+                transform: scale(1);
+            }  }
+        }
+    /******************/
+    /*****************/
+          
+       
+
+
+ 
+    
+    
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #content{
+        margin-left:1.5%
+    }
+      } 
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #content{
+        margin-left: 2%
+    }
+      } 
+      /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #content{
+        margin-left: 5%
+    }
+      } 
+
+
+     /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #content{
+        margin-left: 10%
+    }
+ /* Extra large devices (large laptops and desktops, 1200px and up) */     } 
+@media only screen and (min-width: 1200px) {
+    #content{
+        margin-left: 20%
+    }
+      }
+    /******************************/
+    /*footer/*
+    /******************************/
+     .ff,.tt,.in,.yy,.li{
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            background-color: aqua;
+            padding-top: 6px;
+            float: left;
+            display: inline-block;
+            border-radius: 7px
+        }
+        .ff{
+            background-color: blue;color: white
+        }
+        .ff:hover{
+            background-color: white;color: blue
+        }
+        .tt{
+            background-color: #59b2f1 ;color:white 
+        }
+        .tt:hover{
+             background-color:white;color:#59b2f1
+        }
+        .in{
+           background-color: #a21235;color: white
+        }
+        .in:hover{
+         background-color:white;color: #a21235  
+        }
+        .yy{
+              background-color: red;color: white
+        }
+        .yy:hover{
+             background-color:white;color: red
+        }
+        .li{
+             background-color: #004a73;color: white 
+        }
+       .li:hover{
+          background-color:white;color: #004a73    
+        }
+        .contact{
+            display: inline-block;
+            list-style-type: none;
+            margin-left:5px;
+         
+        } 
+        .contact li{ margin-left:7px;
+            
+            
+        }
+    @media only screen and (max-width: 365px) {
+            
+            .contact li{ margin-left:25px;
+                margin-top: 10px}
+            .as{}
+        } 
+    </style>
+  </head>
+  <body>
+    
+     <div class="container-fluid head" >
+      <div class="row">
+        <div class="col-2 image "><img src="img/logo.png" width="100px" height="100px"></div>
+        <div class="col-7 offset-3 col-md-4 offset-md-6 imail">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <i class="fas fa-envelope-square"></i><!-----------مكتبة  font awesome-------------كلاسات جاهزة---->
+
+                       mansuni@gmail.com
+                </div>
+                <div class="col-12 col-md-6">
+                 <i class="fas fa-phone-square"></i> <!-----------مكتبة  font awesome-------------كلاسات جاهزة---->
+                      7495555
+                </div>
+        
+      </div>
+    </div>
+        </div>
+        
+      </div>
+    </div>
+    <!--------------nav bar--------------------------  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:sticky;top:0;z-index:15;"><!-- clases جاهزة بالبوتستراب -->
+  <a class="navbar-brand" href="home.html"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="about%20us.html">About us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blood%20bank.html">Blood bank</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="find%20doctor.html">Find a doctor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nursing.html">Nursing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Departments
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="childern.html">childern</a>
+          <a class="dropdown-item" href="internal%20medicine.html">Internal medicine</a>
+          <a class="dropdown-item" href="women.html">Women and obstetrics</a>
+          <a class="dropdown-item" href="naturaul.html">Physical herapy</a>
+          <a class="dropdown-item" href="teath.html">teath</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+ 
+ 
+ 
+ 
+ 
+   <a href="childern1.html">للغة العربية</a>
+  <!-- *****************img************************************* -->  
+<div style="font-size:20px;background-color:#f3eeee;margin: 2%;margin-bottom: 4%"><p style="font-size:20px;text-align: justify;margin: 1%"> we’ve been caring for kids at all ages and stages of life. We see more, treat more and heal more children than any hospital in our seven-state region. And since we’re pioneering treatments that are shaping the future of pediatrics, we’re providing the best possible care years before it becomes available at other hospitals.</p></div>
+   <!--     ***************************************     -->
+   <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img src="img/child/1.JPG">
+          <h4>Endocrinology</h4>
+          <p>#8 in the nation for endocrinology</p>
+        </div>
+        <div class="col-sm">
+         <img src="img/child/2.JPG">
+         <h4>Digestive issues</h4>
+         <p>#6 in the nation for gastroenterology and GI Surgery</p>
+        </div>
+        <div class="col-sm">
+          <img src="img/child/3.JPG">
+          <h4>Cancer treatment</h4>
+          <p>85% cure rate for kids' cancer and blood disorders</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <img src="img/child/4.JPG">
+          <h4>Baby care</h4>
+          <p>Treat 1,000+ infants each year</p>
+        </div>
+        <div class="col-sm">
+         <img src="img/child/5.JPG">
+         <h4>Respiratory issues</h4>
+         <p>100+ breathing experts</p>
+        </div>
+        <div class="col-sm">
+          <img src="img/child/6.JPG">
+          <h4>Bone and joint care</h4>
+          <p>Only 3D motion orthopedic center in the region</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <img src="img/child/7.JPG">
+          <h4>Fetal care</h4>
+          <p>Perform nearly all types of fetal surgery</p>
+        </div>
+        <div class="col-sm">
+         <img src="img/child/8.JPG">
+         <h4>Heart health</h4>
+         <p>400+ successful heart transplants completed</p>
+        </div>
+        <div class="col-sm">
+          <img src="img/child/9.JPG">
+          <h4>Brain and behavior</h4>
+          <p>78+ conditions treated</p>
+        </div>
+      </div>
+  </div>
+   
+    <!-- *************footer******************** -->
+    <hr style="height: 6px;width: 100%;background-color: #005982">
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-4" style="font-size: 20px;color: #033f5a">
+         ©2018 made by  <a href="team%20work.html" target="_blank">mansuni for hospital</a>
+        </div>
+        
+        <div class="col-12  col-lg-8">
+         <p  class="coma"style="display: inline-block;float: left;margin-left:40%;font-size: 20px;color: #033f5a">contact by </p>
+        <ul class="contact">
+           
+              <li class="ff"  ><i class="fab fa-facebook-f fa-2x saas " ></i></li>
+              <li class="tt"> <i class="fab fa-twitter fa-2x saas " ></i></li>
+              <li class="in"><i class="fab fa-instagram fa-2x " ></i></li>
+              <li class="yy"><i class="fab fa-youtube fa-2x " ></i></li>
+              <li class="li"> <i class="fab fa-linkedin-in fa-2x " ></i></li>
+          </ul>
+        </div>
+      </div>
+</div>
+		
+   <!-- ******************************* -->
+    <!--<script src="js/jquery-3.2.1.slim.min.js" ></script>-->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js" ></script>
+</body>
+</html>

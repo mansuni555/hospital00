@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+       <!-- ------------font awesome--------------------- -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+ <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ************************ -->
+   
+  
+  <!-- Skitter JS -->
+  <script  src="js/jquery-3.3.1.min.js"></script>
+  <script  src="js/jquery.easing.1.3.js"></script>
+  
+  
+  
+ 
+
+    <!----------------- style----------------------------->
+<style>
+        
+        body{
+            height: 1100px;
+
+            margin: 0;
+            padding: 0
+        }
+        .head{
+           	height:9.5%;
+            background-color:#fff; 
+        }
+        .image img{
+             color: #fffffd;
+				/*border-radius: 50%;*/
+              /*  margin-left: 1%*/
+        }
+        .imail{
+            color:#04608a;
+               
+                margin-top: 2.5%
+        }
+    .navbar-light .navbar-nav .nav-link {
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+        font-weight: 500;}
+    .bg-light {
+    background-color: #005982!important;
+        
+}
+     /***************/
+    .dropdown-item:hover{background-color:#005982;color: #fff }
+        /****************************************/
+    
+        /****************************************/
+        .as{
+            background-color:#3c6281;
+            text-align: center;
+            color: #fff;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: block;
+            margin-left: 12%;
+            padding-top: 22px;
+        }
+        .as:hover i{
+            animation:ddd .5s infinite linear;
+            border-color: #fff
+        }
+        @keyframes ddd{
+            0%{
+                transform: scale(1);
+            }
+           50%{
+                transform: scale(.8);
+          100%{
+                transform: scale(1);
+            }  }
+        }
+    /******************/
+    /*****************/
+          
+       
+
+
+ 
+    
+    
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #content{
+        margin-left:1.5%
+    }
+      } 
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #content{
+        margin-left: 2%
+    }
+      } 
+      /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #content{
+        margin-left: 5%
+    }
+      } 
+
+
+     /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #content{
+        margin-left: 10%
+    }
+ /* Extra large devices (large laptops and desktops, 1200px and up) */     } 
+@media only screen and (min-width: 1200px) {
+    #content{
+        margin-left: 20%
+    }
+      }
+    /******************************/
+    /*footer/*
+    /******************************/
+     .ff,.tt,.in,.yy,.li{
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            background-color: aqua;
+            padding-top: 6px;
+            float: left;
+            display: inline-block;
+            border-radius: 7px
+        }
+        .ff{
+            background-color: blue;color: white
+        }
+        .ff:hover{
+            background-color: white;color: blue
+        }
+        .tt{
+            background-color: #59b2f1 ;color:white 
+        }
+        .tt:hover{
+             background-color:white;color:#59b2f1
+        }
+        .in{
+           background-color: #a21235;color: white
+        }
+        .in:hover{
+         background-color:white;color: #a21235  
+        }
+        .yy{
+              background-color: red;color: white
+        }
+        .yy:hover{
+             background-color:white;color: red
+        }
+        .li{
+             background-color: #004a73;color: white 
+        }
+       .li:hover{
+          background-color:white;color: #004a73    
+        }
+        .contact{
+            display: inline-block;
+            list-style-type: none;
+            margin-left:5px;
+         
+        } 
+        .contact li{ margin-left:7px;
+            
+            
+        }
+    @media only screen and (max-width: 365px) {
+            
+            .contact li{ margin-left:25px;
+                margin-top: 10px}
+            .as{}
+        } 
+    </style>
+  </head>
+  <body>
+    
+        <div class="container-fluid head" >
+      <div class="row">
+        <div class="col-2 image "><img src="img/logo.png" width="100px" height="100px"></div>
+        <div class="col-7 offset-3 col-md-4 offset-md-6 imail">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <i class="fas fa-envelope-square"></i><!-----------مكتبة  font awesome-------------كلاسات جاهزة---->
+
+                       mansuni@gmail.com
+                </div>
+                <div class="col-12 col-md-6">
+                 <i class="fas fa-phone-square"></i> <!-----------مكتبة  font awesome-------------كلاسات جاهزة---->
+                      7495555
+                </div>
+        
+      </div>
+    </div>
+        </div>
+        
+      </div>
+    </div>
+    <!--------------nav bar--------------------------  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:sticky;top:0;z-index:15;"><!-- clases جاهزة بالبوتستراب -->
+  <a class="navbar-brand" href="home.html"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="about%20us.html">About us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blood%20bank.html">Blood bank</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="find%20doctor.html">Find a doctor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nursing.html">Nursing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Departments
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="childern.html">childern</a>
+          <a class="dropdown-item" href="internal%20medicine.html">Internal medicine</a>
+          <a class="dropdown-item" href="women.html">Women and obstetrics</a>
+          <a class="dropdown-item" href="naturaul.html">Physical herapy</a>
+          <a class="dropdown-item" href="teath.html">teath</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+ <a href="teath1.html">للغة العربية</a>
+ <!-- ******************************************** -->
+
+         
+  <!-- *****************img************************************* -->
+<div class="container" style="margin-top: 3%;margin-bottom: 3% ">
+  <div class="row">
+
+    <div class="col-sm-5">
+      <img src="img/smile.jpg" width="100%" height="100%" style="border-radius:50%">
+    </div>
+    <div class="col-sm-6 offset-1">
+     <h2 style="margin-top: 1%">We Create Beautiful Smiles</h2>
+<p style="margin-top: 3%">Dentalia is a modern dental clinic, specialized in advanced diagnostics and treatment of dental and oral disorders.
+
+We offer comprehensive services from all fields of dentistry. In addition to high-end dental equipment, all services are provided in a comfortable, luxury environment. New patients are welcomed with a complimentary oral health consultation.</p>
+    </div>
+  </div>
+</div>
+<!-- ******************************************* -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <a href="img/teath/1.JPG" class="fancybox"> <img src="img/teath/1.JPG"></a>
+      <h2>Dental Implants</h2>
+      <p>A dental implant is a root , it made of Titanium used in Dentistry to put back and appearance similar tooth or group of teeth to replace missing teeth.</p>
+    </div>
+    <div class="col-sm">
+     <a href="img/teath/2.JPG" class="fancybox"><img src="img/teath/2.JPG"></a>
+      <h2>Cosmetic Dentistry</h2>
+      <p>Cosmetic dentistry is giving treatment to problematic teeth with minimal, but new technological methods without pain.</p>
+    </div>
+    <div class="col-sm">
+     <a href="img/teath/3.JPG" class="fancybox"><img src="img/teath/3.JPG"></a>
+      <h2>Laser Dentistry</h2>
+      <p>Laser dentistry is a modern technology dental treatment in which very focused ,intense beam of light is focused on the affected area of your mouth.</p>
+    </div>
+    <div class="col-sm">
+      <a href="img/teath/4.JPG" class="fancybox"> <img src="img/teath/4.JPG"></a>
+      <h2>Orthodontics</h2>
+      <p>Orthodontics is the branch of dentistry that corrects teeth and jaws that are positioned improperly.</p>
+    </div>
+    <div class="col-sm">
+      <a href="img/teath/5.JPG" class="fancybox"><img src="img/teath/5.JPG"></a>
+      <h2>Oral & Maxillofacial Surgery</h2>
+      <p>This surgery is concerned with the performance and interpretation of diagnostic imaging of the mouth, jaws and adjacent structures.</p>
+    </div>
+    <div class="col-sm">
+     <a href="img/teath/6.JPG" class="fancybox"><img src="img/teath/6.JPG"></a>
+      <h2>Prosthodontics</h2>
+      <p>Prosthodontics is the dental specialty that treats patients with missing or deficient teeth and oral and maxillofacial tissues.</p>
+    </div>
+    
+  </div>
+</div>
+
+    <!-- *************footer******************** -->
+    <hr style="height: 6px;width: 100%;background-color: #005982">
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-4" style="font-size: 20px;color: #033f5a">
+         ©2018 made by  <a href="team%20work.html" target="_blank">mansuni for hospital</a>
+        </div>
+        
+        <div class="col-12  col-lg-8">
+         <p  class="coma"style="display: inline-block;float: left;margin-left:40%;font-size: 20px;color: #033f5a">contact by </p>
+        <ul class="contact">
+           
+              <li class="ff"  ><i class="fab fa-facebook-f fa-2x saas " ></i></li>
+              <li class="tt"> <i class="fab fa-twitter fa-2x saas " ></i></li>
+              <li class="in"><i class="fab fa-instagram fa-2x " ></i></li>
+              <li class="yy"><i class="fab fa-youtube fa-2x " ></i></li>
+              <li class="li"> <i class="fab fa-linkedin-in fa-2x " ></i></li>
+          </ul>
+        </div>
+      </div>
+</div>
+		
+   <!-- ******************************* -->
+    <!--<script src="js/jquery-3.2.1.slim.min.js" ></script>-->
+     <script src="js/jquery.fancybox.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js" ></script>
+<script>$(function(){
+    
+   
+    $(".fancybox").fancybox();
+        });</script>
+</body>
+</html>

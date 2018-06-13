@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+       <!-- ------------font awesome--------------------- -->
+        <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ------------------ -->
+        <!--<link rel="stylesheet" href="css/style.css">-->
+
+    <!----------------- style----------------------------->
+<style>
+              body{
+            height: 1500px;
+
+            margin: 0;
+            padding: 0;
+             
+        }
+        .head{
+           	height:7.3%;
+            background-color:#fff; 
+        
+        }
+        .image img{
+            color: #fffffd;
+				border-radius: 50%;
+                margin-left: 1%
+        }
+        .imail{
+            color: #04608a;
+               
+                margin-top: 2.5%
+        }
+    .navbar-light .navbar-nav .nav-link {
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+        font-weight: 500;}
+    .bg-light {
+    background-color: #005982!important;
+        
+}
+    /***************/
+    .dropdown-item:hover{background-color:#005982;color: #fff }
+        /****************************************/
+        
+    /*******************************/
+            *{box-sizing: border-box}
+/*body{perspective: 1000px}*/
+
+    /******************************/
+    /*footor*/
+    /******************************/
+     .ff,.tt,.in,.yy,.li{
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            background-color: aqua;
+            padding-top: 6px;
+            float: left;
+            display: inline-block;
+            border-radius: 7px
+        }
+        .ff{
+            background-color: blue;color: white
+        }
+        .ff:hover{
+            background-color: white;color: blue
+        }
+        .tt{
+            background-color: #59b2f1 ;color:white 
+        }
+        .tt:hover{
+             background-color:white;color:#59b2f1
+        }
+        .in{
+           background-color: #a21235;color: white
+        }
+        .in:hover{
+         background-color:white;color: #a21235  
+        }
+        .yy{
+              background-color: red;color: white
+        }
+        .yy:hover{
+             background-color:white;color: red
+        }
+        .li{
+             background-color: #004a73;color: white 
+        }
+       .li:hover{
+          background-color:white;color: #004a73    
+        }
+        .contact{
+            display: inline-block;
+            list-style-type: none;
+            margin-left:5px;
+         
+        } 
+        .contact li{ margin-left:7px;
+            
+            
+        }
+    @media only screen and (max-width: 365px) {
+            body{background-color: aqua;}
+            .contact li{ margin-left:25px;
+                margin-top: 10px}
+            .as{}
+        }   
+       /****************************grid galaary*****/
+        div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container-fluid head" >
+      <div class="row">
+        <div class="col-2 image "><img src="img/logo.png" width="100px" height="100px"></div>
+        <div class="col-7 offset-3 col-md-4 offset-md-6 imail">
+            <div class="container-fluid">
+                <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <i class="fas fa-envelope-square"></i><!-----------مكتبة  font awesome-------------كلاسات جاهزة---->
+
+                       mansuni@gmail.com
+                </div>
+                <div class="col-12 col-md-6">
+                 <i class="fas fa-phone-square"></i> <!-----------مكتبة  font awesome-------------كلاسات جاهزة---->
+                      7495555
+                </div>
+        
+      </div>
+    </div>
+        </div>
+        
+      </div>
+    </div>
+    <!--------------nav bar--------------------------  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:sticky;top:0;z-index:15;"><!-- clases جاهزة بالبوتستراب -->
+ <a class="navbar-brand" href="home.html"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+    
+      <li class="nav-item ">
+        <a class="nav-link" href="home1.html">الصفحة الرائيسية<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="about%20us1.html">من نحن<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blood%20bank1.html">بنك الدم</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="find%20doctor1.html">عن الاطباء</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nursing1.html">التمريض</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         الاقسام
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="childern1.html">قسم الاطفال</a>
+          <a class="dropdown-item" href="internal%20medicine1.html">قسم الباطنة</a>
+          <a class="dropdown-item" href="women1.html">قسم النسا والتوليد</a>
+          <a class="dropdown-item" href="naturaul1.html">قسم العلاج الطبيعي</a>
+          <a class="dropdown-item" href="teath1.html">قسم الاسنان</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+ 
+ 
+ 
+ 
+ 
+ <a href="blood%20bank.html">for englishs</a>
+  
+  <!-- -----------------*****************collapse***************--------------- --> 
+  
+  <div class="con" style="padding:5% 0";>
+       <h1 style="margin-left: 5%;color:#2592C2" >
+توافق خلايا الدم الحمراء</h1>
+        <div id="accordion" style="width: 90%;margin-left: 5%">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color:#0b7cb1">
+                 Blood group AB
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+               
+لدى الأفراد مستضدات ألف وباء على سطح كرات الدم الحمراء ، ولا تحتوي بلازما الدم على أي أجسام مضادة ضد مستضد A أو B. لذلك ، يمكن للفرد المصاب بالدم من نوع AB الحصول على الدم من أي مجموعة (مع تفضيل AB) ، ولكن لا يمكنه التبرع بالدم إلى أي مجموعة أخرى غير AB. وهي معروفة باسم المستلمين العالميين.
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color:#0b7cb1">
+                  Blood group A 
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body" dir="rtl">
+                
+الأفراد لديهم مستضد A على سطح كرات الدم الحمراء لديهم ، ومصل الدم الذي يحتوي على الأجسام المضادة IgM ضد المستضد B. لذلك ، يمكن للفرد أن يستقبل الدم فقط من أفراد المجموعة A أو O (مع A المفضل) ، ويمكنه التبرع بالدم لأفراد من النوع A أو AB.
+             
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color:#0b7cb1">
+                 Blood group B 
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+               الأفراد لديهم مستضد B على سطح كرات الدم الحمراء لديهم ، ومصل الدم الذي يحتوي على الأجسام المضادة IgM ضد المستضد A. لذلك ، يمكن للفرد من المجموعة ب أن يستقبل الدم فقط من الأفراد من المجموعات B أو O (مع تفضيل B) ، ويمكنه التبرع بالدم لأفراد من النوع B أو AB.
+
+              </div>
+            </div>
+          </div>
+         
+        </div>
+    </div>
+    <!-- ***************grid************************ -->
+    <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+             <img src="img/blood.PNG">
+            </div>
+           
+            <div class="col-12 offset-md-5 col-md-3">
+                 <div class="gallery" style="width: 100%">
+                      <a target="_blank" href="img_fjords.jpg">
+                        <img src="img/blood2.JPG" width="100%" height="">
+                      </a>
+                      <div class="desc" style="color:#05405a ">
+مخطط توافق خلايا الدم الحمراء بالإضافة إلى التبرع لنفس فصيلة الدم ؛ يمكن للجهات المانحة للتبرع بالدم O أن تعطي A و B و AB. المتبرعين بالدم من النوعين A و B يمكن أن تعطي AB.</div>
+                 </div>
+
+                   
+            </div>
+          </div>
+   </div>
+   <!-- ***************jumbtron************************ -->
+   <div class="jumbotron jumbotron-fluid" style="background-color: #f1f5f991">
+  <div class="container">
+    <h1 class="display-4" style="color:#2592C2">توافق البلازما</h1>
+    <p class="lead" style="color:#273033">
+
+توافق بلازما الدم هو عكس توافق خلايا الدم الحمراء. لا يحمل البلازما AB البلازمية أي أضداد مضادة A أو مضادة لـ B ويمكن نقلها إلى أفراد من أي مجموعة دم؛ ولكن اكتب مرضى AB يمكن فقط الحصول على البلازما AB نوع. يحمل النوع O كل من الأجسام المضادة ، بحيث يمكن لأفراد مجموعة الدم O استقبال البلازما من أي مجموعة دموية ، ولكن يمكن استخدام بلازما O فقط من خلال المستلمين من النوع O
+</p>
+  </div>
+</div>
+
+  <!-- ****************footer************************* -->
+  
+   <hr style="height: 6px;width: 100%;background-color: #005982">
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-4" style="font-size: 20px;color: #033f5a">
+         ©2018 made by  <a href="team%20work.html" target="_blank">mansuni for hospital</a>
+        </div>
+        
+        <div class="col-12  col-lg-8">
+         <p  class="coma"style="display: inline-block;float: left;margin-left:40%;font-size: 20px;color: #033f5a">contact by </p>
+        <ul class="contact">
+           
+              <li class="ff"  ><i class="fab fa-facebook-f fa-2x saas " ></i></li>
+              <li class="tt"> <i class="fab fa-twitter fa-2x saas " ></i></li>
+              <li class="in"><i class="fab fa-instagram fa-2x " ></i></li>
+              <li class="yy"><i class="fab fa-youtube fa-2x " ></i></li>
+              <li class="li"> <i class="fab fa-linkedin-in fa-2x " ></i></li>
+          </ul>
+        </div>
+      </div>
+</div>
+   <!-- ******************************* -->
+    <script src="js/jquery-3.2.1.slim.min.js" ></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js" ></script>
+</body>
+</html>
